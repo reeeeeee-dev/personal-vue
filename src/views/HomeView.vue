@@ -18,6 +18,7 @@
       </h6>
       <a
         href="/resume.pdf"
+        target="_blank"
         class="text-lg bg-black text-red-400 float-right w-fit p-4 underline cursor-pointer hover:text-white"
       >
         Click here for my resume
