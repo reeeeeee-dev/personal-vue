@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main class="overflow-visible m-16 text-white">
+  <main class="h-screen text-white overflow-hidden">
     <div
       class="rotate-[-45deg] overflow-hidden md:min-xl:h-screen flex flex-wrap m-16 mt-96 items-center justify-center"
     >
