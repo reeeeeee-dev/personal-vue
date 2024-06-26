@@ -3,7 +3,7 @@ import HeroSection from '../components/HeroSection.vue'
 </script>
 
 <template>
-  <main class="h-screen text-white overflow-hidden">
+  <main class="h-screen overflow-hidden">
     <HeroSection />
   </main>
 </template>
