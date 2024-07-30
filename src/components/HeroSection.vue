@@ -6,10 +6,7 @@
       <h1 class="text-[80px] bg-black p-4">Reetik Patel</h1>
     </div>
     <div class="h-[50vh] w-[50vh] rounded-3xl overflow-hidden">
-      <img
-        class="object-cover scale-[1.45] mt-[-450px] ml-12 sepia-[0.3]"
-        src="/img/headshot.jpg"
-      />
+      <img class="object-contain scale-110 sepia-[0.3]" src="/img/headshot.jpg" />
     </div>
   </div>
   <div class="flex flex-col items-center w-[45%] float-right">
