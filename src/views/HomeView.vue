@@ -3,7 +3,8 @@ import HeroSection from '../components/HeroSection.vue'
 </script>
 
 <template>
-  <main class="h-screen">
+  <main class="h-screen bg-[var(--dark)]">
+    <div>&nbsp;</div>
     <HeroSection />
   </main>
 </template>
