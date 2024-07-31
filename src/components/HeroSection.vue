@@ -3,13 +3,9 @@ import Parallaxy from '@lucien144/vue3-parallaxy'
 </script>
 
 <template>
-  <div
-    class="bg-cover bg-no-repeat bg-[url(/img/shades.jpg)] flex h-96 m-64 px-32 py-64 items-center"
-  >
-    <div class="text-9xl text-black p-16">Reetik Patel</div>
-    <Parallaxy :speed="200" :animation="(delta) => `transform: translate3d(0, ${delta}px, 0);`">
-      <img src="/img/headshot.jpg" class="absolute max-w-screen-md left-64" />
-    </Parallaxy>
+  <div class="bg-cover bg-no-repeat bg-[url(/img/shades.jpg)] flex h-96 px-32 py-64 items-center">
+    <div class="text-9xl text-[var(--dark)] p-16">Reetik Patel</div>
+    <img src="/img/headshot.jpg" class="h-96" />
   </div>
   <div class="flex flex-col items-center w-[45%] float-right">
     <h6 class="text-xl bg-black font-bold w-fit float-right p-4">

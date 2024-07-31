@@ -4,10 +4,11 @@ import HistorySection from '@/components/HistorySection.vue'
 </script>
 
 <template>
-  <main class="h-screen bg-[var(--dark)]">
+  <main class="bg-[var(--dark)]">
     <div>&nbsp;</div>
     <HeroSection />
     <HistorySection />
+    <div>&nbsp;</div>
   </main>
 </template>
 
