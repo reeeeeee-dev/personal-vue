@@ -13,7 +13,25 @@ import { RouterView } from 'vue-router'
     </RouterLink>
   </header>
 
-  <RouterView />
+  <router-view v-slot="{ Component }">
+    <Transition>
+      <component class="main" :is="Component" />
+    </Transition>
+  </router-view>
 </template>
 
-<style scoped></style>
+<style scoped>
+.main {
+  min-height: calc(100vh - 80px /* Header */);
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.2s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+</style>
