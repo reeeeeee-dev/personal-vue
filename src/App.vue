@@ -21,10 +21,6 @@ import { RouterView } from 'vue-router'
 </template>
 
 <style scoped>
-.main {
-  min-height: calc(100vh - 80px /* Header */);
-}
-
 .v-enter-active,
 .v-leave-active {
   transition: opacity 0.2s ease;
