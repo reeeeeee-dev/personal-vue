@@ -9,6 +9,12 @@ const scrollToElem = (id) => document.getElementById(id).scrollIntoView({ behavi
       <ul class="text-4xl flex flex-col gap-3 list-['>']">
         <li
           class="pl-8 hover:text-[var(--accent)] transition-colors cursor-pointer"
+          @click="scrollToElem('designpickle')"
+        >
+          Design Pickle
+        </li>
+        <li
+          class="pl-8 hover:text-[var(--accent)] transition-colors cursor-pointer"
           @click="scrollToElem('xerosec')"
         >
           Xerosec
@@ -28,6 +34,21 @@ const scrollToElem = (id) => document.getElementById(id).scrollIntoView({ behavi
       </ul>
     </div>
 
+    <br id="designpickle" class="my-32" />
+
+    <div class="flex flex-row-reverse gap-32 h-full mt-8 flex-wrap">
+      <div>
+        <div class="w-min">
+          <h3 class="text-6xl w-max">Design Pickle</h3>
+          <marquee>Typescript | Javascript | SCSS | Storybook</marquee>
+        </div>
+        <p class="max-w-prose mt-4">
+          Still to early to summarize, I'm learning and growing in my current role.
+        </p>
+      </div>
+      <img src="/img/designpickle.jpg" class="w-64 object-contain aspect-square bg-white" />
+    </div>
+
     <br id="xerosec" class="my-32" />
 
     <div class="flex gap-32 h-full mt-8 flex-wrap">
@@ -37,8 +58,8 @@ const scrollToElem = (id) => document.getElementById(id).scrollIntoView({ behavi
           <marquee>Typescript | Javascript | SCSS | NX | NextJS | Storybook | Azure</marquee>
         </div>
         <p class="max-w-prose mt-4">
-          In January of 2024, an old friend from high school reach out about an opportunity. It was
-          a revolutionary new way to share and install scripts. After some design work, I
+          In January of 2024, an old friend from high school reached out about an opportunity. It
+          was a revolutionary new way to share and install scripts. After some design work, I
           single-handedly created the frontend platform for the site. It was an NX monorepo
           containing the app itself and a component library supporting it. The component library was
           written in Typescript and documented with Storybook. The app was built on NextJS.
@@ -49,7 +70,7 @@ const scrollToElem = (id) => document.getElementById(id).scrollIntoView({ behavi
 
     <br id="bill" class="my-32" />
 
-    <div class="flex flex-row-reverse flex-wrap gap-32 h-full mt-8">
+    <div class="flex flex-row-reverse flex-wrap gap-16 h-full mt-8">
       <div>
         <div class="w-max m-auto mr-0 my-4">
           <h3 class="text-6xl text-right">Bill.com / Divvy</h3>
