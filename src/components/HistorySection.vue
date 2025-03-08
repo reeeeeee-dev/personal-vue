@@ -43,7 +43,7 @@ const scrollToElem = (id) => document.getElementById(id).scrollIntoView({ behavi
           <marquee>Typescript | Javascript | SCSS | Storybook</marquee>
         </div>
         <p class="max-w-prose mt-4">
-          Still to early to summarize, I'm learning and growing in my current role.
+          Still too early to summarize, I'm learning and growing in my current role.
         </p>
       </div>
       <img src="/img/designpickle.jpg" class="w-64 object-contain aspect-square bg-white" />
@@ -117,7 +117,7 @@ const scrollToElem = (id) => document.getElementById(id).scrollIntoView({ behavi
           threats, inclement weather, and COVID exposures.
         </p>
       </div>
-      <img src="/img/walmart.png" class="object-contain aspect-square bg-[#122b53] w-64" />
+      <img src="/img/walmart.png" class="object-contain aspect-square bg-[#122b53] w-64 h-64" />
     </div>
   </div>
 </template>
