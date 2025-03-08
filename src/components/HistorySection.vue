@@ -40,7 +40,7 @@ const scrollToElem = (id) => document.getElementById(id).scrollIntoView({ behavi
       <div>
         <div class="w-min">
           <h3 class="text-6xl w-max">Design Pickle</h3>
-          <marquee>Typescript | Javascript | SCSS | Storybook</marquee>
+          <marquee>Typescript | Javascript | SCSS | Storybook | Jest</marquee>
         </div>
         <p class="max-w-prose mt-4">
           Still too early to summarize, I'm learning and growing in my current role.
