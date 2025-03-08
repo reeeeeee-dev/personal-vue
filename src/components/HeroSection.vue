@@ -18,17 +18,5 @@ import Parallaxy from '@lucien144/vue3-parallaxy'
         ><img src="/img/linkedin.svg" class="h-16"
       /></a>
     </div>
-    <div class="flex flex-col items-center w-[45%] float-right">
-      <h6 class="text-xl bg-black font-bold w-fit float-right p-4">
-        My new site is a work in progress, but feel free to look around.
-      </h6>
-      <a
-        href="/resume.pdf"
-        target="_blank"
-        class="text-lg bg-black float-right w-fit p-4 underline cursor-pointer hover:text-white"
-      >
-        Click here for my resume
-      </a>
-    </div>
   </div>
 </template>
