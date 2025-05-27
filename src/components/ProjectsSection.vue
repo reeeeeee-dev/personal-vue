@@ -58,7 +58,7 @@ const scrollToElem = (id) => document.getElementById(id).scrollIntoView({ behavi
 
     <br id="43south" class="my-32" />
 
-    <div class="flex flex-row-reverse gap-32 h-full mt-8 flex-wrap">
+    <div class="flex gap-32 h-full mt-8 flex-wrap">
       <div>
         <div class="w-min">
           <h3 class="text-6xl w-max">43 South</h3>
