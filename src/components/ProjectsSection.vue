@@ -9,6 +9,18 @@ const scrollToElem = (id) => document.getElementById(id).scrollIntoView({ behavi
       <ul class="text-4xl flex flex-col gap-3 list-['>']">
         <li
           class="pl-8 hover:text-[var(--accent)] transition-colors cursor-pointer"
+          @click="scrollToElem('allavservices')"
+        >
+          All AV Services
+        </li>
+        <li
+          class="pl-8 hover:text-[var(--accent)] transition-colors cursor-pointer"
+          @click="scrollToElem('drycleansupercenter')"
+        >
+          Dry Clean Super Center
+        </li>
+        <li
+          class="pl-8 hover:text-[var(--accent)] transition-colors cursor-pointer"
           @click="scrollToElem('resplash')"
         >
           Resplash
@@ -22,7 +34,54 @@ const scrollToElem = (id) => document.getElementById(id).scrollIntoView({ behavi
       </ul>
     </div>
 
-    <br id="designpickle" class="my-32" />
+    <br id="allavservices" class="my-32" />
+
+    <div class="flex gap-32 h-full mt-8 flex-wrap">
+      <div>
+        <div class="w-min">
+          <h3 class="text-6xl w-max">All AV Services</h3>
+          <div>Typescript | SCSS | React | NextJS</div>
+        </div>
+        <p class="max-w-prose mt-4">
+          I've known Scott Fussellman of All AV Services since he taught video production at my high
+          school. I was referred to him by my instructor in the Ignite Program to build full web
+          refresh of the All AV Services website. One of the few projects I designed and built from
+          the ground up, I referenced some new design trends. My friends and I built the site using
+          NextJS and uploaded it to the company's hosting. All AV Services is a long time client of
+          mine and I'm proud to have been able to help them out. Visit them at
+          <a class="text-[var(--accent)] underline" target="_blank" href="https://allavservices.com"
+            >allavservices.com</a
+          >.
+        </p>
+      </div>
+      <img src="/img/allavservices.gif" class="h-64 bg-white" />
+    </div>
+
+    <br id="drycleansupercenter" class="my-32" />
+
+    <div class="flex flex-row-reverse gap-32 h-full mt-8 flex-wrap">
+      <div>
+        <div class="w-min">
+          <h3 class="text-6xl w-max">Dry Clean Super Center</h3>
+          <div>Vue | Tailwind | Cloudflare</div>
+        </div>
+        <p class="max-w-prose mt-4">
+          My cousin wanted a new website for my dad's dry cleaning business. It was a simple and
+          straightforward project. After building the website with Vue and Tailwind, I hosted it
+          using Cloudflare Pages. I'm not sure it it'll ever be finished at the time of writing. I
+          asked my cousin for images and he hasn't responded yet. Visit them at
+          <a
+            class="text-[var(--accent)] underline"
+            target="_blank"
+            href="https://drycleansupercenter.com"
+            >drycleansupercenter.com</a
+          >.
+        </p>
+      </div>
+      <img src="/img/drycleansupercenter.png" class="h-64 bg-white" />
+    </div>
+
+    <br id="resplash" class="my-32" />
 
     <div class="flex flex-row-reverse gap-32 h-full mt-8 flex-wrap">
       <div>
@@ -64,7 +123,7 @@ const scrollToElem = (id) => document.getElementById(id).scrollIntoView({ behavi
           <h3 class="text-6xl w-max">43 South</h3>
           <marquee>
             Small Electronics | Home Assistant | Shelly | Unraid | Server Management | IoT |
-            Ubiquiti Unifi
+            Ubiquiti
           </marquee>
         </div>
         <p class="max-w-prose mt-4">
